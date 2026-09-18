@@ -1,0 +1,43 @@
+# ---------------------------------------------------------------
+# GPIB2USB_AR488-ESP32
+# ---------------------------------------------------------------
+
+# Firmware upstream — tải riêng bằng git clone, xem docs/SOURCES.md
+# (xóa 2 dòng này nếu chuyển sang dùng git submodule)
+firmware/ar488-esp32/
+firmware/ar488-original/
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# Arduino IDE
+build/
+*.bin
+*.elf
+*.hex
+*.map
+
+# Trình soạn thảo / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python (nếu viết script đọc số liệu qua PyVISA)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Nhật ký, dữ liệu đo tạm
+*.log
+*.csv.tmp
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db
+desktop.ini
